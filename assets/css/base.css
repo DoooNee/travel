@@ -1,0 +1,62 @@
+:root{
+    --white-color :#fff;
+    --text-color:#333;
+    --primary-color:#14b9d5;
+    --text-:#727475;
+    --hover-:rgb(243, 242, 242);
+
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;    
+
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+
+}
+
+.grid_column-4{
+    width: 25%;
+    display: block;
+}
+
+
+.grid_column-3{
+    width: 33.333%;
+    display: block;
+}
+
+
+.grid_column-2{
+    width: 50%;
+    display: block;
+}
+
+
+
+
+
+
+

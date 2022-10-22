@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+</head>
+<body>
+<div class="app  ">
+    <div class="header">
+        <div class="">
+            <!-- introduce -->
+            <div class="introduce grid">
+                <div class="introduct__navbar">
+                    <ul class="introduct__navbar-list">
+                        <li class="introduct__navbar-item">
+                            <img class="introduct__navbar-img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/world-white.svg" alt="">
+                            LANGUAGES</li>
+                        <li class="introduct__navbar-item">
+                            EN
+                        </li>
+                        <li class="introduct__navbar-item">
+                            ES
+                        </li>
+                        <li class="introduct__navbar-item">
+                            <img class="introduct__navbar-img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/share-white.svg" alt="">
+                            OUR SOCICAL 
+                        </li>
+                        <li class="introduct__navbar-item">
+                            <img class="introduct__navbar-img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/facebook-white.svg" alt="">
+                            <img class="introduct__navbar-img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/twitter-white.svg" alt="">
+                            <img class="introduct__navbar-img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/linkedin-white.svg" alt="">
+                            <img class="introduct__navbar-img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/pinterest-white.svg" alt="">
+                            
+                        </li>
+                    </ul>
+                    <ul class="introduct__navbar-list">
+                        <li class="introduct__navbar-item">
+                            <img class="introduct__navbar-img"  src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/star-white.svg" alt="">
+                            TOUR PACKAGES</li>
+                        <li class="introduct__navbar-item">
+                            <img class="introduct__navbar-img"  src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/pin-white.svg" alt="">
+                            CONTACT US</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- navigation -->
+            <div class="navigation grid">
+               
+                <div class="navigation__nav">
+                    <ul class="navigation__nav-list">
+                        <a class="" href="#">
+                            <span class="navigation__logo">
+                                <img class="navigation__img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/11/logo-color.png" alt="">
+                            </span>
+                        </a>
+                        <li class="navigation__nav-item"><a href="">HOME</a></li>
+                        <li class="navigation__nav-item navigation__nav-PACKAGES"><a class="" href="">PACKAGES</a>
+                            <ul class="navigation subnav">
+                                <li><a class="" href="#">Search 
+                                    <span class="navigation__subnav-hot">HOT</span>
+                                </a></li>
+                                <li class="navigation__subnav-TourPackage"><a class="" href="#">Tour Package
+                                    <i  class="fas fa-caret-right navigation__subnav-icon"></i>
+                                </a>
+                                        <ul class="navigation subnav subnav-2">
+                                            <li><a class="" href="#">Carousel<span class="navigation__subnav-hot">HOT</span>
+                                            </a></li>
+                                            <li><a href="#">Custom Map</a></li>
+                                            <li><a href="#">Panorama</a></li>
+                                            <li><a href="#">Default</a></li>
+                                        </ul>
+                                </li>
+                                <li><a href="#">Destination</a></li>
+                                <li><a href="#">Typology</a></li>
+                            </ul>
+                        </li>
+                        <li class="navigation__nav-item"><a href="">SHOP</a></li>
+                        <li class="navigation__nav-item"><a href="">ABOUT US</a></li>
+                        <li class="navigation__nav-item"><a href="">PAGES</a></li>
+                        <li class="navigation__nav-item"><a href="">NEWS</a></li>
+                        <li class="navigation__nav-item"><a href="">CONTACT</a></li>
+                        <li class="navigation__nav-item navigation__nav-item-active "><a class="navigation__nav-active" href="">BOOK NOW</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Slider -->
+            <div class="slider ">
+                
+                    <i class="slider-left-icon fas fa-chevron-left"  onclick="changeImage()" style="
+                    line-height: 800px;"></i>
+
+                    <i class="slider-right-icon fas fa-chevron-right"  onclick="changeImage()" style="
+                    line-height: 800px;"></i>
+               
+                <div class="slider__img">
+                    <img id="img" onclick="changeImage()" src="./assets/img/sea1.jpg" alt="">
+                </div>
+
+                <div class="slider__img-sale">
+                    <div class="slider__img-caption">
+                        <div class="slider__img-img">
+                            <img class="slider__img-icon" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/revslider/home-3/zigzag-moustache-1.png" alt="">
+                        </div>
+                        <div class="slider__img-content">
+                            PACKAGE <div></div> SALE <div></div> -50%
+                        </div>
+                       
+                            <button class=" slider__img-btn">SHOP NOW</button>
+                    </div>
+                    <div class="until">
+                        <div class="until-caption">
+                           <div>ONLY UNITL</div>
+
+                           <div>1.1.2021</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        
+            <!--Content  -->
+            <div class="content">
+                <div class="content-title">
+                    <h3>OUR PROPOSALS</h3>
+                    <span class="content__heading">OUR</span><span class="content__heading content__heading-underline  ">DESTINATIONS</span>
+                </div>
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column-4" >
+                            <div class="content-img" >
+                                <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/03/dest-01-540x712.jpg" alt="">
+                                <div class="content-icon" >
+                                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/torii-gate.png" alt="">
+                                </div>
+                                <div class="content-img-icon">
+                                    <h1 class="content-icon-text">Asia</h1>
+                                    <h2 class="content-icon-text">2 PACKAGES</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-4" >
+                            <div class="content__section">
+                                <ul class="content__section-travel ">
+                                    <li class="content__section-img">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/03/package-01-720x720.jpg" alt="">
+                                    </li>
+                                    <li>
+                                        <ul class="content__section-travel-2">
+                                            <li><h1>Koh Samui</h1> </li>
+
+                                            <li class="content__section-address">
+                                                <i class="fas fa-map-marker-alt"></i>  
+                                                <span>Europe</span>
+                                            </li>
+
+                                            <li>
+                                                <button>FROM 700 $</button>
+                                            </li>
+                                        </ul>                                       
+                                    </li>
+                                </ul>
+
+                                <ul class="content__section-travel">
+                                    <li class="content__section-img">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/03/package-02-720x720.jpg" alt="">
+                                    </li>
+                                    <li>
+                                        <ul class="content__section-travel-2">
+                                            <li><h1>Bora Bora</h1> </li>
+
+                                            <li class="content__section-address">
+                                                <i class="fas fa-map-marker-alt"></i>  
+                                                <span>Asia</span>
+                                            </li>
+
+                                            <li>
+                                                <button>FROM 500 $</button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul class="content__section-travel">
+                                    <li class="content__section-img">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/03/package-03-720x720.jpg" alt="">
+                                    </li>
+                                    <li>
+                                        <ul class="content__section-travel-2">
+                                            <li><h1>Maldevis</h1> </li>
+
+                                            <li class="content__section-address">
+                                                <i class="fas fa-map-marker-alt"></i>  
+                                                <span>Oceania</span>
+                                            </li>
+
+                                            <li>
+                                                <button>FROM 400 $</button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-4" >
+                            <div class="content-img" >
+                                <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/04/dest-03-540x712.jpg" alt="">
+                                <div class="content-icon" >
+                                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/arch.png" alt="">
+                                </div>
+                                <div class="content-img-icon">
+                                    <h1 class="content-icon-text">Europe</h1>
+                                    <h2 class="content-icon-text">3 PACKAGES</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-4" >
+                            <div class="content__section">
+                                <ul class="content__section-travel ">
+                                    <li class="content__section-img">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/03/package-06-720x720.jpg" alt="">
+                                    </li>
+                                    <li>
+                                        <ul class="content__section-travel-2">
+                                            <li><h1>Hawaii</h1> </li>
+
+                                            <li class="content__section-address">
+                                                <i class="fas fa-map-marker-alt"></i>  
+                                                <span>Italy</span>
+                                            </li>
+
+                                            <li>
+                                                <button>FROM 300 $</button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul class="content__section-travel">
+                                    <li class="content__section-img">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/03/package-05-720x720.jpg" alt="">
+                                    </li>
+                                    <li>
+                                        <ul class="content__section-travel-2">
+                                            <li><h1>Seychelles</h1> </li>
+
+                                            <li class="content__section-address">
+                                                <i class="fas fa-map-marker-alt"></i>  
+                                                <span>Nether</span>
+                                            </li>
+
+                                            <li>
+                                                <button>FROM 500 $</button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul class="content__section-travel">
+                                    <li class="content__section-img">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/03/package-04-720x720.jpg" alt="">
+                                    </li>
+                                    <li>
+                                        <ul class="content__section-travel-2">
+                                            <li><h1>Phuket</h1> </li>
+                                            <li class="content__section-address">
+                                                <i class="fas fa-map-marker-alt"></i>  
+                                                <span>Thailan</span>
+                                            </li>
+                                            <li>
+                                                <button>FROM 700 $</button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="content-main grid">
+                            <div class="grid__column-4" >
+                                <div class="content__inner">
+                                    <ul class="content__inner-title">
+                                        <li>
+                                            <h3>OUR PROPOSALS</h3>
+                                        </li>
+                                        <li class="content__inner-size">
+                                           <h2 class=""> Creative  </h2>
+                                           <h2 class=""> Travel Agency  </h2>
+                                        </li>                        
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="grid__column-4" >
+                                <div class="content__inner">
+                                    <ul class="content__inner-title">
+                                        <li>
+                                            <span>1978</span>
+    
+                                        </li>
+                                        <li class="content__inner-size">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam etni
+                                            </p>
+                                        </li>                        
+                                    </ul>
+                                </div>             
+                            </div>
+                            <div class="grid__column-4" >
+                                <div class="content__inner">
+                                    <ul class="content__inner-title">
+                                        <li>
+                                            <span>50K</span>
+    
+                                        </li>
+                                        <li class="content__inner-size">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam etni
+                                            </p>
+                                        </li>                        
+                                    </ul>
+                                </div>             
+                            </div>
+                            <div class="grid__column-4" >
+                                <div class="content__inner">
+                                    <ul class="content__inner-title">
+                                        <li>
+                                            <span>+20</span>
+                                        </li>
+                                        <li class="content__inner-size">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam etni
+                                            </p>
+                                        </li>                        
+                                    </ul>
+                                </div>             
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <script>
+                var index=1;
+                changeImage=function  () {
+                    var imgs =["./assets/img/hawai.jpg","./assets/img/sea.jpg","./assets/img/sea1.jpg"]
+                    document.getElementById('img').src =imgs[index];
+                    index++;
+                    if(index==3){
+                        index=0;
+                    }
+                }
+                setInterval(changeImage,5000);
+            </script>
+            </div>
+
+            <!-- Destination -->
+            <div class="destination ">
+                <div class="destination__img">
+                    <div class="content-title content-title-white">
+                        <h3>OUR PROPOSALS</h3>
+                        <span class="content__heading">OUR</span><span class="content__heading content__heading-underline  ">DESTINATIONS</span>
+                    </div>
+                    <div class="destination__menu grid ">
+                        <div class="destination__options grid_column-3">
+                           <ul>
+                               <li>
+                                <form class="destination__options-list" >
+                                    <h2>Destination </h2>
+                                    <select class="destination__select" name="option">
+                                      <option value="1">All Destinations</option>
+                                      <option value="2">Europe</option>
+                                      <option value="3">- Italy</option>
+                                      <option value="3">- Netherlands</option>
+                                      <option value="3">Asia</option>
+                                      <option value="3">Thailandia</option>
+                                      <option value="3">Oceania</option>
+                                    </select>
+                                  </form>
+                               </li>
+                               <li>
+                                <form class="destination__options-list" >
+                                    <h2>Difficulty </h2>
+                                    <select class="destination__select" name="option">
+                                      <option value="1">All Difficulty</option>
+                                      <option value="2">Hight</option>
+                                      <option value="3">Low</option>
+                                      <option value="3">Medium</option>
+                                    </select>
+                                  </form>
+                               </li>
+                           </ul>
+                        </div>
+
+                        <div class="destination__options grid_column-3">
+                            <ul>
+                                <li>
+                                 <form class="destination__options-list" >
+                                     <h2>Typology </h2>
+                                     <select class="destination__select" name="option">
+                                       <option value="1">All Typology</option>
+                                       <option value="2">Relax</option>
+                                       <option value="3">Cultural</option>
+                                       <option value="3">Sport</option>
+                                       <option value="3">History</option>
+                                       
+                                     </select>
+                                   </form>
+                                </li>
+                                <li>
+                                 <form class="destination__options-list" >
+                                     <h2>Min Age </h2>
+                                     <select class="destination__select" name="option">
+                                       <option value="1">All Min Age</option>
+                                       <option value="2">3 Years</option>
+                                       <option value="3">10 Years</option>
+                                       <option value="3">18 Years</option>
+                                     </select>
+                                   </form>
+                                </li>
+                            </ul>
+                         </div>
+
+                         <div class="destination__options grid_column-3">
+                            <ul>
+                                <li>
+                                 <form class="destination__options-list" >
+                                     <h2>Durations </h2>
+                                     <select class="destination__select" name="option">
+                                        <option value="1">All Durations</option>
+                                        <option value="1">1-3 Days</option>
+                                        <option value="1">3-6 Days</option>
+                                        <option value="1">6-9 Days</option>
+                                        <option value="1">9-12 Days</option>
+                                     </select>
+                                   </form>
+                                </li>
+                                <li>
+                                 <form class="destination__options-list" >
+                                        <button class="destination__options-btn">SEARCH</button>
+                                   </form>
+                                </li>
+                            </ul>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- News  -->
+            <div class="news ">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="news__column grid_column-3">
+                            <h2 class="news__first-font">OUR PROPOSALS</h2>
+                            <h1 class="news__last-font">Articles & News</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor leo quam, in lacinia lacus congue venenatis.</p>
+                            <button class="news__blog-btn">OUR BLOG</button>
+                        </div>
+
+                        <div class="news__column-1 grid_column-3">
+                                <ul class="news__wrap">
+                                    <li class="news__date">APRIL 11, 2018</li>
+                                    <li class="news__heading">Travel Events</li>
+                                    <li class="news__content">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</li>
+                                    <li class="news_-readmore"> 
+                                        <button class="news_-readmore-btn">READ MORE</button>
+                                    </li>
+                                </ul>
+
+                                <ul class="news__wrap">
+                                    <li class="news__date">APRIL 11, 2018</li>
+                                    <li class="news__heading">Best Beaches</li>
+                                    <li class="news__content">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</li>
+                                    <li class="news_-readmore"> 
+                                        <button class="news_-readmore-btn">READ MORE</button>
+                                    </li>
+                                </ul>
+                        </div>
+
+                        <div class="news__column-1 grid_column-3">
+                            <ul class="news__wrap">
+                                <li class="news__date">APRIL 11, 2018</li>
+                                <li class="news__heading">Magic Blooms</li>
+                                <li class="news__content">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</li>
+                                <li class="news_-readmore"> 
+                                    <button class="news_-readmore-btn">READ MORE</button>
+                                </li>
+                            </ul>
+
+                            <ul class="news__wrap">
+                                <li class="news__date">APRIL 11, 2018</li>
+                                <li class="news__heading">Alternative Trips</li>
+                                <li class="news__content">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</li>
+                                <li class="news_-readmore"> 
+                                    <button class="news_-readmore-btn">READ MORE</button>
+                                </li>
+                            </ul>
+                    </div>
+                      
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proposals -->
+            <div class="proposals">
+                    <div class="proposals-img">
+                        <div class="grid">
+                            <div class="grid__row">
+                                <div class="grid_column-4">
+                                    <div class="proposals__our">
+                                        <span>30</span>
+                                        <ul class="proposals__our-list">
+                                            <li>YEARS OF</li>
+                                            <li> EXPERIENCE</li>
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid_column-4">
+                                    <div class="proposals__our">
+                                        <span>78</span>
+                                        <ul class="proposals__our-list">
+                                            <li>SATISFIED</li>
+                                            <li> CUSTOMERS</li>
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid_column-4">
+                                    <div class="proposals__our">
+                                        <span>48</span>
+                                        <ul class="proposals__our-list">
+                                            <li>TYPES OF</li>
+                                            <li> INSURANCE</li>
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid_column-4">
+                                    <div class="proposals__our">
+                                        <span>56</span>
+                                        <ul class="proposals__our-list">
+                                            <li>TRAVEL</li>
+                                            <li> DESTINATIONS</li>
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- OURS -->
+            <div class="ours">
+                <div class="content-title">
+                    <h3>OUR PROPOSALS</h3>
+                    <span class="content__heading">OUR</span><span class="content__heading content__heading-underline  ">DESTINATIONS</span>
+                </div>
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid_column-3">
+                            <div class="cantons">
+                                    <ul class="ours__option">
+                                        <li class="ours__option-dolla">20</li>
+                                        <li class="ours__option-monthly">MONTHLY</li>
+                                    </ul>
+                                    <ul class="ours__option ">
+                                        <li class="ours__option-basic">Basic</li>
+                                    </ul>
+                                <div class="ours__content">
+                                    <img class="cantons__img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/shortcodes/custom/price/img/yes.svg" alt=""> 
+                                    <span class="cantons__span">Lorem ipsum dolor sit amet</span>
+                                </div>
+                                <div class="ours__content">
+                                    <img class="cantons__img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/shortcodes/custom/price/img/yes.svg" alt=""> 
+                                    <span class="cantons__span">Lorem ipsum dolor sit amet</span>
+                                </div>
+                                <div class="ours__content">
+                                    <img class="cantons__img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/shortcodes/custom/price/img/yes.svg" alt=""> 
+                                    <span class="cantons__span">Lorem ipsum dolor sit amet</span>
+                                </div>
+                                <div class="ours__content">
+                                    <img class="cantons__img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/shortcodes/custom/price/img/yes.svg" alt=""> 
+                                    <span class="cantons__span">Lorem ipsum dolor sit amet</span>
+                                </div>
+                                
+                                <button class="ours__btn">
+                                    READ MODE
+                                </button>
+                            </div>
+                        </div>
+                        <div class="grid_column-3">
+                            <div class="cantons cantons__color">
+                                    <ul class="ours__option">
+                                        <li class="ours__option-dolla ours__option-dolla-color">40</li>
+                                        <li class="ours__option-monthly ours__option-monthly-color ">MONTHLY</li>
+                                    </ul>
+                                    <ul class="ours__option ">
+                                        <li class="ours__option-basic ours__option-basic-color">Premium</li>
+                                    </ul>
+                                <div class="ours__content">
+                                    <img class="cantons__img cantons__img-disable " src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/shortcodes/custom/price/img/yes.svg" alt=""> 
+                                    <span class="cantons__span cantons__span-color">Lorem ipsum dolor sit amet</span>
+                                </div>
+                                <div class="ours__content">
+                                    <img class="cantons__img cantons__img-disable" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/shortcodes/custom/price/img/yes.svg" alt=""> 
+                                    <span class="cantons__span cantons__span-color">Lorem ipsum dolor sit amet</span>
+                                </div>
+                                <div class="ours__content">
+                                    <img class="cantons__img cantons__img-disable" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/shortcodes/custom/price/img/yes.svg" alt=""> 
+                                    <span class="cantons__span cantons__span-color">Lorem ipsum dolor sit amet</span>
+                                </div>
+                                <div class="ours__content">
+                                    <img class="cantons__img cantons__img-disable" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/shortcodes/custom/price/img/yes.svg" alt=""> 
+                                    <span class="cantons__span cantons__span-color">Lorem ipsum dolor sit amet</span>
+                                </div>
+                                
+                                <button class="ours__btn ours__btn-color">
+                                    READ MODE
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="grid_column-3">
+                            <div class="cantons">
+                                    <ul class="ours__option">
+                                        <li class="ours__option-dolla">60</li>
+                                        <li class="ours__option-monthly">MONTHLY</li>
+                                    </ul>
+                                    <ul class="ours__option ">
+                                        <li class="ours__option-basic">Business</li>
+                                    </ul>
+                                <div class="ours__content">
+                                    <img class="cantons__img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/shortcodes/custom/price/img/yes.svg" alt=""> 
+                                    <span class="cantons__span">Lorem ipsum dolor sit amet</span>
+                                </div>
+                                <div class="ours__content">
+                                    <img class="cantons__img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/shortcodes/custom/price/img/yes.svg" alt=""> 
+                                    <span class="cantons__span">Lorem ipsum dolor sit amet</span>
+                                </div>
+                                <div class="ours__content">
+                                    <img class="cantons__img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/shortcodes/custom/price/img/yes.svg" alt=""> 
+                                    <span class="cantons__span">Lorem ipsum dolor sit amet</span>
+                                </div>
+                                <div class="ours__content">
+                                    <img class="cantons__img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/plugins/nd-shortcodes/shortcodes/custom/price/img/yes.svg" alt=""> 
+                                    <span class="cantons__span">Lorem ipsum dolor sit amet</span>
+                                </div>
+                                
+                                <button class="ours__btn">
+                                    READ MODE
+                                </button>
+                            </div>
+                        </div>
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+              
+            <!-- footer -->
+            <div class="footer ">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid_column-2 footer__heading">
+                            <div class="content-title content-title-white">
+                                <h3>KEEP IN TOUCH</h3>
+                                <span class="content__heading">Travel with Us</span>
+                             </div>
+                        </div>
+                        <div class="grid_column-2 footer__heading-2">
+                           <input class="footer__heading-input" type="email">
+                           <button class="footer__heading-send">SEND</button>
+                        </div>
+                    </div>
+
+                    <div class="footer__content">
+                        <div class="grid__row footer__content-full">
+                            <div class="grid_column-2 ">
+                                <div class="footer__content-left">
+                                        <img class="navigation__img footer__img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/11/logo-color.png" alt="">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh condimentum venenatis eu ac magnasin. Quisque interdum est mauris, eget ullamcorper.</p>
+                                        <i class="fab fa-twitter footer__content-left-icon"></i>
+                                        <i class="fab fa-youtube footer__content-left-icon"></i>
+                                        <i class="fab fa-facebook-square footer__content-left-icon"></i>
+                                        <i class="fab fa-vimeo-v footer__content-left-icon"></i>
+                                </div>
+                            </div>
+
+                            <div class="grid_column-2 ">
+                                <div class="footer__content-right">
+                                     <div class="grid__row">
+                                        <div class="grid_column-3 ">
+                                            <div class="footer__container">
+                                                <span>OUR AGENCY</span>
+                                               <div class="footer__container-margin">
+                                                <p><i class="fas fa-chevron-right"></i>Services</p>
+                                                <p><i class="fas fa-chevron-right"></i>Insurancee</p>
+                                                <p><i class="fas fa-chevron-right"></i>Agency</p>
+                                                <p><i class="fas fa-chevron-right"></i>Tourism</p>
+                                                <p><i class="fas fa-chevron-right"></i>Payment</p>
+                                               </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="grid_column-3 ">
+                                            <div class="footer__container">
+                                                <span>PARTNERS</span>
+                                               <div class="footer__container-margin">
+                                                <p><i class="fas fa-chevron-right"></i>Booking</p>
+                                                <p><i class="fas fa-chevron-right"></i>RentalCar</p>
+                                                <p><i class="fas fa-chevron-right"></i>HostelWorld</p>
+                                                <p><i class="fas fa-chevron-right"></i>Trivago</p>
+                                                <p><i class="fas fa-chevron-right"></i>TripAdvisor</p>
+                                               </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="grid_column-3 ">
+                                            <div class="footer__container">
+                                                <span>LAST MINUTEY</span>
+                                               <div class="footer__container-margin">
+                                                <p><i class="fas fa-chevron-right"></i>London</p>
+                                                <p><i class="fas fa-chevron-right"></i>California</p>
+                                                <p><i class="fas fa-chevron-right"></i>Agency</p>
+                                                <p><i class="fas fa-chevron-right"></i>Indonesia</p>
+                                                <p><i class="fas fa-chevron-right"></i>Oceania</p>
+                                               </div>
+                                            </div>
+                                        </div>
+                                      
+                                     </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="last">
+                            <p>THE BEST WORDPRESS TRAVEL THEME</p>
+                            <p>COPYRIGHT NICDARK THEMES 2018</p>
+                        </div>
+                    </div>     
+                </div>   
+            </div>   
+    </div>
+</div>
+
+
+</body>
+</html>
